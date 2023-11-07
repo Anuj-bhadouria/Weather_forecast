@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewSettingsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings Activity"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <ImageView
+        android:id="@+id/imageSettings"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_below="@id/textViewSettingsTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewSettingsDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="customize the app settings here."
+        android:layout_below="@id/imageSettings"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+
+</RelativeLayout>

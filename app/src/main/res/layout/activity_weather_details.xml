@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    style="@style/AppTheme"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:textSize="30dp"
+        android:id="@+id/textViewTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature: "
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"/>
+
+    <TextView
+        android:textSize="20dp"
+        android:id="@+id/textViewWeatherDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detailed weather information goes here."
+        android:layout_below="@id/textViewTemperature"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+
+</RelativeLayout>
